@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    height: auto;
+}
+
+header{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:	#f7f7f9;
+
+}
+
+#cam{
+
+    display: flex;
+}
+
+main{
+
+text-align: center;
+width: 100%;
+
+}
+
+header p{
+
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+#logo{
+margin-left: 1%;
+margin-top: 1%;
+width: 20%;
+
+}
+
+.container-fluid{
+margin: 1%;
+padding: 2%;
+font-size: 2rem;
+border-radius: 3px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+article{
+    text-align: center;
+    margin: auto;
+
+}
+
+img{
+
+    width: 20%;
+    transition: opacity 400ms;
+    opacity: 1;
+    transition: transform 400ms;
+
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.5);
+
+
+}
+
+footer{
+
+    padding-top: 15%;
+    margin: auto;
+    height: auto;
+    text-align: center; 
+}
+
+#lien{
+
+    padding: 1rem 2rem 3rem 2rem;
+    background: lightgrey;
+}
+
+
+
+#lien:hover{
+
+background-color:gray;
+transition-duration: 0.1s;
+}
+
+.panier{
+    color: black;
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color:#ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: blueviolet;
+}
+
+.panier:hover{
+    color: blueviolet;
+}
+
+.boutons{
+    float: right;
+    margin-top: 3%;
+}
+
+article{
+    border-radius: 3px;
+    border-color: rgb(89, 84, 94);
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 0%;
+    text-align: center;
+}
+#lien{
+    padding:6px 6px 6px ;
+	font:bold 1.2em 'Coming Soon', cursive;
+	background:#f5f5f5;
+	color:rgb(44, 41, 41);
+	border-radius:3px;
+	border:2px solid rgb(70, 64, 64);
+    box-shadow:1px 1px 3px rgb(75, 71, 71); 
+
+}
+#lien:hover{
+    background-color: rgb(176, 174, 179);
+    transition-duration: 0.1s;
+}
+img{
+    color:rgb(44, 41, 41);
+    width: 70%;
+	border-radius:1rem;
+	border:2px solid blueviolet;
+	box-shadow:1px 1px 3px rgb(75, 71, 71);
+}
+
+p, label{
+
+    font-size: 1.3rem;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+#list, #voirPanier, #stockage{
+
+    color: black;
+    font-family: cursive;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 2%;
+    border-color: blueviolet;
+}
+
+#liste:hover, #voirPanier:hover, #stockage:hover{
+    background-color: rgb(176, 174, 179);
+    transition-duration: 0.1s;
+}
