@@ -255,7 +255,7 @@ p, label{
     border-radius: 3px;
     border-width: 1px;
     margin: 2%;
-    border-color: blueviolet;
+    border-color:#e8491d;
 }
 
 #liste:hover, #voirPanier:hover, #stockage:hover{
@@ -270,3 +270,5 @@ footer{
     background-color:#e8491d;
     text-align: center;
   }
+
+  
