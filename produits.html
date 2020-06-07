@@ -10,18 +10,26 @@
     <link rel="shortcut icon" href=""> 
     <title>ORINOCO - Commerce en ligne</title>
 </head>
-
 <body>
     <header>
-        <a href="index.html"> <img src="./images/logo.png" id="logo" alt="Logo de notre site de ventes"></a>
-        <div class="boutons">
-        <button class="panier" onclick='location.href="panier.html"' data-target="panier">Panier <span class="totalQté"></span><i class="fas fa-shopping-cart"></i></button>
-        </div>
-        <p> Bienvenue </p><hr>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">ORINOCO</span> Site E-commerce</h1>
+                </div>
+                <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <button class="panier" onclick='location.href="panier.html"' data-target="panier">Panier<span class="totalQté"></span> <i class="fas fa-shopping-cart"></i></button>
+                </ul>
+                </nav>
+        
+        <p>Bienvenue</p><hr>
     </header>
-<section>
-    <div class="container-fluid text-center">
-        <h2>NOS APPAREILS DE COLLECTIONS</h2>
+    
+<section id="showcase">
+    <div class="container">
+        <h1>NOS APPAREILS PHOTOS DE  COLLECTIONS</h1>
         <p id="intro"></p>
     </div>
 </section>
