@@ -194,7 +194,7 @@ function achat() {
         "city": city,
     };
 
-    // créa tion de l'objet pour la requete au serveur//
+    // création de l'objet pour la requete au serveur//
 
     let objt = {
         contact,
