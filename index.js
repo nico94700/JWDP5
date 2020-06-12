@@ -1,21 +1,21 @@
 //MAJ nombre de pdts dans l'onglet panier//
+/*******************************************/
 function chargementPanier(){
   let nombreProduit = localStorage.getItem('qté');
 
   if(nombreProduit){
-    document.querySelector ('.totalQté').textContent = nombreProduit;
+  document.querySelector ('.totalQté').textContent = nombreProduit;
   }else{
-    document.querySelector ('.totalQté').textContent = 0 ;
+      document.querySelector ('.totalQté').textContent = 0 ;
   }
 }
 
-
 chargementPanier();
-
-// connexion à l'API et récupérer les données du serveur//
+// Connexion à l'API et récupérer les données du serveur//
+/*********************************************************/
 var camera = function (url) {
-   return new Promise(function (resolve, reject) {
-     var xhr = new XMLHttpRequest();
+    return new Promise(function (resolve, reject) {
+      var xhr = new XMLHttpRequest();
  
      xhr.onreadystatechange = function () {
        if (xhr.readyState === 4) {
@@ -23,7 +23,8 @@ var camera = function (url) {
            resolve(xhr.responseText); // si ok //
          } else {
            reject(xhr);
-           // alerte si le serveur ne répond pas
+           // alerte si le serveur ne répond pas//
+           /****************************************/
            alert("Nous sommes désolé, le serveur ne répond pas ! ")
          };
        };
@@ -32,7 +33,8 @@ var camera = function (url) {
      xhr.send();
    });
  };
-// affiche une erreur si la requete AJAX ne fonctionne pas
+// affiche une erreur si la requete AJAX ne fonctionne pas//
+/**********************************************************/
 var catchError = function(e){
  console.error('Erreur AJAX', e);
 };
@@ -40,23 +42,24 @@ var catchError = function(e){
 // Recupére les données du serveur grace à la requete précedente //
 
 var products = function () {
-   return camera('http://localhost:3000/api/cameras/').then(function (response) {
-     var products = JSON.parse(response);
-     return products;
+  return camera('http://localhost:3000/api/cameras/').then(function (response) {
+    var products = JSON.parse(response);
+    return products;
    });
  };
 
 let cam = document.getElementById('cam'); 
 
-// affiche la liste dynamiquement 
+// affiche la liste des articles dynamiquement //
+/************************************************/
 
-products().then(function(products){
+   products().then(function(products){
    console.log(products);
 
-// afficher chaque produits sous forme d'une liste //
 
+// afficher chaque produits sous forme d'une liste //
+/*****************************************************/
 products.forEach( camera=> {
-  
 
    var article = document.createElement('article');
    article.id= "articleListe";
@@ -65,14 +68,14 @@ products.forEach( camera=> {
    image.src = camera.imageUrl;
 
    var div = document.createElement('div');
-   var nom = document.createElement('h3');
-   nom.textContent = camera.name;
-   nom.id ="camera";
+    var nom = document.createElement('h3');
+    nom.textContent = camera.name;
+    nom.id ="camera";
 
-   var prix = document.createElement('h4');
+  var prix = document.createElement('h4');
    prix.textContent = 'Prix :';
-   var price = document.createElement('p');
-   price.textContent = camera.price + '€';
+    var price = document.createElement('p');
+    price.textContent = camera.price + '€';
 
    var id = camera._id;
 
@@ -81,9 +84,8 @@ products.forEach( camera=> {
    link.href = 'produits.html?id=' + camera._id;
    link.textContent = "Voir l'appareil Photo";
 
-
 // mettre les éléments du dom //
-
+/********************************/
 
    cam.appendChild(article);
    article.appendChild(nom);
@@ -92,5 +94,5 @@ products.forEach( camera=> {
    div.appendChild(prix);
    div.appendChild(price);
    div.appendChild(link)
-});
+  });
 });
