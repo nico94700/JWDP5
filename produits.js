@@ -148,7 +148,7 @@ function ajoutLocalStorage(){
           panier[camera.name].qté += 1;
     }
     localStorage.setItem("panier", JSON.stringify(panier));
-}
+};
 function prixTotal(){
    let price = parseInt(camera.price);
    let prixDuPanier = JSON.parse(localStorage.getItem('prixTotal'));
@@ -157,10 +157,10 @@ function prixTotal(){
        localStorage.setItem("prixTotal", prixDuPanier + price);
     } else {
         localStorage.setItem("prixTotal", price);
-    }
+    };
 }
 
-})
+});
 
 // Mise en place des éléments dans le DOM//
 /********************************************/
