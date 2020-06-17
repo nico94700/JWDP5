@@ -147,7 +147,7 @@ function deleteButtons() {
     /*******************************************/
 
     alert('Vous avez supprimé'+ nomProduit + ' de votre panier  ')
-    // actualiser le localstorage et regarcher la page pour une MAJ //
+    // actualiser le localstorage et recharche la page pour une MAJ //
     /******************************************************************/
     localStorage.setItem('panier', JSON.stringify(data));
     window.location.reload();
@@ -174,7 +174,7 @@ if (panier == null || total == 0) {
 /************************************************************/
     let products = [];
 
-    // créer une fonction pour récupérer les ID des pdt au paier , pour l'afficher dans la requete POST//
+    // créer une fonction pour récupérer les ID des pdt au panier , pour l'afficher dans la requete POST//
     /****************************************************************************************************/
     function productId(products) {
      let panier = JSON.parse(localStorage.getItem('panier'));
