@@ -33,6 +33,7 @@ var camera = function (url) {
      xhr.send();
    });
  };
+ 
 // affiche une erreur si la requete AJAX ne fonctionne pas//
 /**********************************************************/
 var catchError = function(e){
