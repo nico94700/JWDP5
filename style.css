@@ -114,6 +114,16 @@ header p
 	width: 20%;
 }
 
+a{
+	color: #e8491d;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 13px;
+    border-color: #e8491d;
+    text-decoration: none;
+    
+}
+
 article
 {
 	text-align: center;
@@ -213,14 +223,44 @@ footer
 	float:left;
 	display:inline;
 	padding: 0 20px 0 20px;
+	outline: none;
 }
 
-.boutons
-{
-	float: right;
-	margin-top: 3%;
+button{
+
+	color:#e8491d;
+	font-weight:bold;
+	font-size: 23px;
+    border-radius: 13px;
+	border-color: #e8491d;
+	outline: none;
+}
+select{
+	font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 2%;
+    padding: 6px 6px 6px;
+    background: #f5f5f5;
+    border: 2px solid;
+    text-decoration: none;
+    color: #e8491d;
+    font-weight: bold;
+    font-size: 23px;
+	border-color: #e8491d;
+	border-radius: 15px;
+	outline: none;
 }
 
+input{
+
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+	color:#e8491d;
+	font-weight:bold;
+
+}
 article
 {
 	border-radius: 3px;
@@ -235,11 +275,14 @@ article
 {
 	padding:6px 6px 6px ;
 	background:#f5f5f5;
-	color:rgb(44, 41, 41);
-	border-radius:3px;
 	border:2px solid rgb(70, 64, 64);
 	box-shadow:1px 1px 3px rgb(75, 71, 71);
 	text-decoration: none;
+	color: #e8491d;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 13px;
+    border-color: #e8491d;
 }
 
 #lien:hover
@@ -265,22 +308,51 @@ p, label
 
 #list, #voirPanier, #stockage
 {
-	color: black;
 	font-family: cursive;
-	font-size: 1em;
 	font-weight: bold;
 	background-color: #ffffff;
-	border-style: solid;
-	border-radius: 3px;
-	border-width: 1px;
 	margin: 2%;
-	border-color:#e8491d;
+	padding:6px 6px 6px ;
+	background:#f5f5f5;
+	border:2px solid;
+	text-decoration: none;
+	color: #e8491d;
+    font-weight: bold;
+    font-size: 23px;
+    border-color: #e8491d;
+}
+
+.select{
+
+	font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 2%;
+    padding: 6px 6px 6px;
+    background: #f5f5f5;
+    border: 2px solid;
+    text-decoration: none;
+    color: #e8491d;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 23px;
+    border-color: #e8491d;
 }
 
 #liste:hover, #voirPanier:hover, #stockage:hover
 {
 	background-color: rgb(176, 174, 179);
-	transition-duration: 0.1s;
+	padding: 6px 6px 6px;
+    background: #f5f5f5;
+    border: 2px solid rgb(70, 64, 64);
+    box-shadow: 1px 1px 3px rgb(75, 71, 71);
+    text-decoration: none;
+    color: #e8491d;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 13px;
+	border-color: #e8491d;
+	outline: none;
 }
 
 footer
