@@ -273,6 +273,7 @@ if (panier == null || total == 0) {
     oublisVille.textContent = "Format de votre ville incorrect";
     oublisVille.style.color = 'red';
     return event.preventDefault();
+  
 
   } else if (panier == null || total == 0){
     return event.preventDefault();
