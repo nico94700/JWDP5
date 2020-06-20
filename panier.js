@@ -278,6 +278,7 @@ if (panier == null || total == 0) {
   } else if (panier == null || total == 0){
     return event.preventDefault();
 
+  
   }else {
     // envoi la commande au serveur avec les coordonnées du client//
     /***************************************************************/
@@ -299,5 +300,4 @@ if (panier == null || total == 0) {
     request.setRequestHeader("Content-type", "application/json");
     request.send(achatjson);
 }
-
 }

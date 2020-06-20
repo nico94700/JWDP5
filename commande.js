@@ -40,4 +40,5 @@ function retour(){
     localStorage.clear();
     sessionStorage.clear();
 }
+
 commande();
