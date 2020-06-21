@@ -2,7 +2,8 @@ Projet 5 Construire un site e-commerce
 
 Pour tester le projet 5 :
 
-Il vous faudra cloner le BACK-END, il s’agit du dossier qui représente le code permettant de traiter l’information et communiquer avec une base de données.                                                    Ce dossier est fourni par OpenClasroom et c’est avec ce code que nous allons travailler pour que l’application marche et soit entièrement dynamique. 
+Il vous faudra cloner le BACK-END, il s’agit du dossier qui représente le code permettant de traiter l’information et communiquer avec une base de données.
+Ce dossier est fourni par OpenClasroom et c’est avec ce code que nous allons travailler pour que l’application marche et soit entièrement dynamique. 
 Cela représente le serveur.
 
 Pour pouvoir le mettre en place le repository doit être cloné https://github.com/OpenClassrooms-Student-Center/JWDP5 git sur votre poste
