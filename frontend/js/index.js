@@ -40,6 +40,7 @@ var catchError = function(e){
  console.error('Erreur AJAX', e);
 };
 
+
 // Recupére les données du serveur grace à la requete précedente //
 
 var products = function () {
