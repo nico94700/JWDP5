@@ -16,7 +16,7 @@ chargementPanier();
 var camera = function (url) {
     return new Promise(function (resolve, reject) {
       var xhr = new XMLHttpRequest();
- 
+      
      xhr.onreadystatechange = function () {
        if (xhr.readyState === 4) {
          if (xhr.status === 200) {
@@ -51,6 +51,13 @@ var products = function () {
  };
 
 let cam = document.getElementById('cam'); 
+
+for (var i = 0; i < products.length; i++) {
+  var products = products[i];
+  let data = response [i];
+  console.log(products);
+  createItem (items, products, i);
+};
 
 // affiche la liste des articles dynamiquement //
 /************************************************/
