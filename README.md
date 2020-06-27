@@ -11,7 +11,7 @@ Cela représente le côté client
 
 4- Le site étant dynamique il faudra utiliser un serveur web local.	
 
-5- Utiliser de préférence un éditeur de code comme « VSCode » Ouvrer votre navigateur soit par le live serveur de VS CODE clique droit sur index.html ou soit en entrant l'adresse suivante : http://127.0.0.1:5500/frontend/html/index.html ou sur https://nico94700.github.io/JWDP5/index.html (site est publié par  GitHub Pages) 
+5- Utiliser de préférence un éditeur de code comme « VSCode » Ouvrer votre navigateur soit par le live serveur de VS CODE clique droit sur index.html ou soit en entrant l'adresse suivante : http://127.0.0.1:5500/index.html ou sur https://nico94700.github.io/JWDP5/index.html (site est publié par  GitHub Pages) 
 
 Bonne visite 
 
