@@ -4,10 +4,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<meta name="description" content="Site internet ORINOCO, ventes en ligne d'appareils photos de collections.">
-		<link rel="stylesheet"  href="./style.css" >
-		<link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/180cce73de.js" crossorigin="anonymous"></script>
-		<link rel="shortcut icon" href="">
+		<link rel="stylesheet"  href="/frontend/css/style.css" >
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap " rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+		
 		<title>ORINOCO - Commerce en ligne</title>
 	</head>
 	<body>
@@ -16,9 +16,11 @@
 				<div id="branding">
 					<h1><span class="highlight">ORINOCO</span> Site E-commerce</h1>
 				</div>
+				</div>
 				<nav>
 					<ul>
-						<li class="current"><a href="./commande.html">Home</a></li>
+						<li class="current"><a href="/frontend/html/index.html">Home</a></li>
+						<li><a href="#cam">Produits</a></li>
 						<button class="panier" onclick='location.href="panier.html"' data-target="panier">
 							Panier
 							<span class="totalQté"></span>
@@ -29,7 +31,6 @@
 				<p>
 					Bienvenue
 				</p>
-				<hr>
 			</header>
 			<section id="showcase">
 				<div class="container">
@@ -38,11 +39,7 @@
 				</div>
 			</section>
 			<main>
-				<div class="jumbotron ConfirmationDeCommande">
-					<h1 class="display-4">Commande confirmée ! <i class="fas fa-check"></i></h1>
-					<div id="recap"></div>
-					<a class="btn btn-secondary btn-lg retour" href="index.html" onclick="retour()" role="button">Retourner à l'accueil du site</a>
-				</div>
+				<div id="cam"></div>
 			</main>
 			<footer>
 				<p>
@@ -52,6 +49,6 @@
 				</p>
 				<br>
 			</footer>
+			<script src="./frontend/js/index.js"></script>
 		</body>
-		<script src="./frontend/js/commande.js"></script>
 	</html>
