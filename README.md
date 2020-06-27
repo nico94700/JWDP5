@@ -2,7 +2,8 @@ Projet 5 Construire un site e-commerce
 
 Pour tester le projet 5 :
 
-1-Vous devez installer nodeJs sur votre machine localement et installer avec la commande npm install sur votre terminal
+1--Vous devez installer nodeJs sur votre machine localement et installer les packages de nodeJS avec la commande npm install dans le dossier du backend sur votre terminal
+
 
 2-Pour utiliser mon projet vous pourrez cloner mon repository : http://github.com/nico94700/JWDP5 Ce dossier représente le travail qui a été demandé, nous nous concentrons côté client et nous enverrons des requêtes au serveur afin de recevoir et d’envoyer des informations au back-end.
 Cela représente le côté client 	
