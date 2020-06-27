@@ -19,9 +19,11 @@ function chargementPanier(){
   let id = params.get("id");
   console.log(id);
 
+
   let _id = id;
   let camera;
   let paniers;
+  
 
 
 //  obtention d'un seul produit à afficher dans la page produit//
