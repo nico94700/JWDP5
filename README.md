@@ -1,20 +1,14 @@
-Projet 5 Construire un site e-commerce
-
-Pour tester le projet 5 :
-
-1--Vous devez installer nodeJs sur votre machine localement et installer les packages de nodeJS avec la commande npm install dans le dossier du backend sur votre terminal
+1-installé NodeJS sur votre ordinateur depuis l’adresse suivante « https://nodejs.org/en/ » télécharger la version recommandée et suivre les instructions passée les étapes next, next jusqu'à l'installation cliquer sur le finish et une fenêtre doit vous apparaitre appuyer 2 fois sur une touche dans la fenêtre et cliquer sur la croix pour fermer 
 
 
-2-Pour utiliser mon projet vous pourrez cloner mon repository : http://github.com/nico94700/JWDP5 Ce dossier représente le travail qui a été demandé, nous nous concentrons côté client et nous enverrons des requêtes au serveur afin de recevoir et d’envoyer des informations au back-end.
-Cela représente le côté client 	
+2- Ouvrer votre éditeur de code et cloner mon repository http://github.com/nico94700/JWDP5 git là où il y a indiqué "CLONE" ou téléchargé mes dossiers et enregistré sur le bureau ouvrer les dans votre éditeur de code 
 
-3- Une fois node installé la commande "node server" permettra de lancer le serveur depuis votre terminal dans le repertoire "JWDP5/backend" Le port par défaut du serveur en localhost est 3000 un message doit vous affiche (Listening on porte 3000 « Successfully connected To MongoDB Atlas ! » cela indique que la connexion à la base de données a réussi.
+3-installer les packages de NodeJs sur la partie backend dans votre terminal soit JWDP5\backend> avec la commande « npm install » ATTENTION si votre éditeur n'a pas de terminal intégrer ouvrer votre terminal de votre Pc et indique le lieu du dossier référent en fonction de localisation sur votre Pc "ex-C:\Users\manager>cd desktop...."
 
-4- Le site étant dynamique il faudra utiliser un serveur web local.	
-
-5- Utiliser de préférence un éditeur de code comme « VSCode » Ouvrer votre navigateur soit par le live serveur de VS CODE clique droit sur index.html ou soit en entrant l'adresse suivante : http://127.0.0.1:5500/index.html ou sur https://nico94700.github.io/JWDP5/index.html (site est publié par  GitHub Pages) 
-
-Bonne visite 
+4-Vous verrez dans votre dossier backend un dossier nommé node_modules cela veut dire que les package sont installé
 
 
- 
+5-Toujours dans le dossier BACKEND initialiser la commande « node server » dans votre terminal C:\Users\manager\Desktop\JWDP5\backend> vous verrez apparaitre un message indiquant « successfully connected To MongoDB Atlas ! » cela voudra dire que votre serveur est opérationnel 
+
+
+6-Une fois le serveur connecter allez sur l’adresse suivante ou http://127.0.0.1:5500/frontend/html/index.html
