@@ -11,4 +11,4 @@
 5-Toujours dans le dossier BACKEND initialiser la commande « node server » dans votre terminal C:\Users\manager\Desktop\JWDP5\backend>node server vous verrez apparaitre un message indiquant « successfully connected To MongoDB Atlas ! » cela voudra dire que votre serveur est opérationnel 
 
 
-6-Une fois le serveur connecter allez sur l’adresse suivante ou http://127.0.0.1:5500/frontend/html/index.html
+6-Une fois le serveur connecter lancer le fichier index.html dans le navigateur et bonne navigation !!!
